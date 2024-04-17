@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 lg:mx-0">
+  <div class="mx-4 lg:mx-0 min-h-screen">
     <main class="flex-grow">
       <Navbar />
       <NuxtPage />

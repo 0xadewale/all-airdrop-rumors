@@ -8,8 +8,6 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   supabase: {
-    url: 'https://zbyxsfwrskcjpcrmzlke.supabase.co',
-    key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpieXhzZndyc2tjanBjcm16bGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTI4MjQ0MjcsImV4cCI6MjAyODQwMDQyN30.FbgqPj-BtSaiz6KULDbM-MC1h1470xDkP5thWP0KZKo',
     redirect: false
   }
 })

@@ -5,7 +5,15 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-md flex-row menu-horizontal rounded-box hidden md:flex">
-        <li class="hidden md:block"><a>Item 1</a></li>
+        <li class="hidden md:block">
+          <a href="https://discord.gg/p8xzFNtZrF"><Icon name="fa6-brands:discord" size="24px" /></a>
+        </li>
+        <li class="hidden md:block">
+          <a href="https://twitter.com/Airdrops_rumors"><Icon name="line-md:twitter-x" size="24px" /></a>
+        </li>
+        <li class="hidden md:block">
+          <a href="https://hey.xyz/u/all_airdrops_rumors"><img src="/logo-lenster.svg" alt="Lens logo" class="h-6" /></a>
+        </li>
         <li>
           <details>
             <summary >Theme</summary>
@@ -44,6 +52,10 @@ function changeTheme(theme: string) {
 
 function toggleTheme() {
   colorMode.preference = colorMode.preference === 'light' ? 'dark' : 'light'
+}
+
+function copyDonation() {
+  navigator.clipboard.writeText('0x21021784c62adf02565b0b1083e691a4ab61414b')
 }
 </script>
 
